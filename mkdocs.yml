@@ -19,4 +19,7 @@ nav:
     - AWS Installation: getting-started/install-aws.md
     - Azure Installation: getting-started/install-azure.md
     - GCP Installation: getting-started/install-gcp.md
-  - Troubleshooting: troubleshooting.md
+    - Troubleshooting: getting-started/troubleshooting.md
+  - Cluster Operatons:
+    - Introduction: clusterops/intro.md
+    - API: clusterops/api.md
