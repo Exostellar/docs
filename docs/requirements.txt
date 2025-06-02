@@ -1,0 +1,4 @@
+mkdocs
+mkdocs-material
+mkdocs-redoc-tag
+mkdocs-git-revision-date-localized
