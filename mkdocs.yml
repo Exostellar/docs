@@ -10,3 +10,13 @@ plugins:
   - search
   - redoc-tag
   - git-revision-date-localized
+
+nav:
+  - Overview: index.md
+  - Getting Started:
+    - Introduction: getting-started/intro.md
+    - Self-Hosted Installation: getting-started/install-selfhosted.md
+    - AWS Installation: getting-started/install-aws.md
+    - Azure Installation: getting-started/install-azure.md
+    - GCP Installation: getting-started/install-gcp.md
+  - Troubleshooting: troubleshooting.md
