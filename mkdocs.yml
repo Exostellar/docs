@@ -2,8 +2,3 @@ site_name: Exostellar SDG Documentation
 site_description: Software Defined GPU Documentation.
 
 repo_url: https://github.com/Exostellar/docs/
-
-plugins:
-  - search
-  - redoc-tag
-	background: White
