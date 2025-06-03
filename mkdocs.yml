@@ -10,6 +10,7 @@ plugins:
   - search
   - redoc-tag
   - git-revision-date-localized
+  - mermaid2
 
 nav:
   - Overview: index.md
@@ -20,6 +21,6 @@ nav:
     - Azure Installation: getting-started/install-azure.md
     - GCP Installation: getting-started/install-gcp.md
     - Troubleshooting: getting-started/troubleshooting.md
-  - Cluster Operatons:
+  - Cluster Operations:
     - Introduction: clusterops/intro.md
     - API: clusterops/api.md
