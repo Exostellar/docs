@@ -10,7 +10,14 @@ plugins:
   - search
   - git-revision-date-localized
   - mermaid2
-  - neoteroi.mkdocsoad
+  - neoteroi.mkdocsoad:
+      use_pymdownx: true
+
+markdown_extensions:
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Overview: index.md
