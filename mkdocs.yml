@@ -8,9 +8,9 @@ theme:
 
 plugins:
   - search
-  - redoc-tag
   - git-revision-date-localized
   - mermaid2
+  - neoteroi.mkdocsoad
 
 nav:
   - Overview: index.md
