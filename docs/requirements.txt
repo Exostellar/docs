@@ -1,4 +1,4 @@
-mkdocs-redoc-tag
 mkdocs-git-revision-date-localized-plugin
 mkdocs-material
 mkdocs-mermaid2-plugin
+neoteroi.mkdocsoad
