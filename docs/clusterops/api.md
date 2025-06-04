@@ -1,2 +1,2 @@
 # Overview
-[OAD(./docs/docs/clusterops/swagger.yaml)]
+[OAD(https://raw.githubusercontent.com/Exostellar/docs/refs/heads/main/docs/clusterops/swagger.yaml)]
