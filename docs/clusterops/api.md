@@ -1,2 +1,2 @@
 # Overview
-[OAD(./docs/clusterops/swagger.yaml)]
+[OAD(./docs/docs/clusterops/swagger.yaml)]
