@@ -1,0 +1,88 @@
+{
+  "tutorialSidebar": [
+    "index",
+    {
+      "type": "category",
+      "label": "Getting Started",
+      "items": [
+        "getting-started/quickstart",
+        "getting-started/install-aws",
+        "getting-started/install-azure",
+        "getting-started/install-gcp",
+        "getting-started/install-onprem",
+        "getting-started/troubleshooting"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "GPU Flex",
+      "items": [
+        "gpu-flex/overview",
+        "gpu-flex/fractional-gpu",
+        "gpu-flex/memory-compute-phases",
+        "gpu-flex/right-sizing",
+        "gpu-flex/benchmarks",
+        "gpu-flex/cli-guide"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "ClusterOps",
+      "items": [
+        "clusterops/overview",
+        "clusterops/multi-cluster",
+        "clusterops/quota-manager",
+        "clusterops/scheduling",
+        "clusterops/topology-aware",
+        "clusterops/inference-queues"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Workloads",
+      "items": [
+        "workloads/training-optimization",
+        "workloads/fine-tuning-optimization",
+        "workloads/inference-best-practices",
+        "workloads/workload-profiling"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "API Reference",
+      "items": [
+        "api-reference/rest-api",
+        "api-reference/job-schema",
+        "api-reference/sdk-usage"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Observability",
+      "items": [
+        "observability/gpu-utilization-metrics",
+        "observability/prometheus-grafana",
+        "observability/sla-tracking",
+        "observability/cost-optimization"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Support",
+      "items": [
+        "support/faq",
+        "support/collect-logs",
+        "support/known-issues",
+        "support/submit-feedback"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Release Notes",
+      "items": [
+        "release-notes/v0.1.0"
+      ]
+    },
+    "roadmap"
+  ]
+}
