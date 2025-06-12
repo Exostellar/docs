@@ -1,33 +1,134 @@
-site_name: Exostellar SDG Documentation
-site_description: Software Defined GPU Documentation.
+site_name: Exostellar Documentation
+site_description: Complete guide to deploying and managing Exostellar Platform
+site_url: http://localhost:8000
 
 repo_url: https://github.com/Exostellar/docs/
+repo_name: Exostellar/docs
 
 theme:
   name: material
+  logo: https://cdn.prod.website-files.com/682f16fda0a63d2b81f9abbc/682f208634dfb368ea15734b_logo.svg
+  favicon: https://cdn.prod.website-files.com/682f16fda0a63d2b81f9abbc/682f208634dfb368ea15734b_logo.svg
+  font:
+    text: Arial, sans-serif
+    code: JetBrains Mono
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.prefetch
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
-  - search
-  - git-revision-date-localized
-  - mermaid2
-  - neoteroi.mkdocsoad:
-      use_pymdownx: true
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
 
 nav:
-  - Overview: index.md
-  - Getting Started:
-    - Introduction: getting-started/intro.md
-    - Self-Hosted Installation: getting-started/install-selfhosted.md
-    - AWS Installation: getting-started/install-aws.md
-    - Azure Installation: getting-started/install-azure.md
-    - GCP Installation: getting-started/install-gcp.md
-    - Troubleshooting: getting-started/troubleshooting.md
-  - Cluster Operations:
-    - Introduction: clusterops/intro.md
-    - API: clusterops/api.md
+  - Welcome: index.md
+  - Release Notes: release-notes.md
+  - Install Guide:
+    - install-guide/index.md
+    - Infrastructure Setup: install-guide/infrastructure-setup.md
+    - System Requirements: install-guide/system-requirements.md
+    - Cloud Environment Preparation: install-guide/cloud-environment-preparation.md
+    - Install Exostellar Platform:
+      - install-guide/platform/index.md
+      - Kubernetes Setup: install-guide/platform/kubernetes-setup.md
+      - Helm Installation: install-guide/platform/helm-installation.md
+      - Storage Configuration: install-guide/platform/storage-configuration.md
+      - Platform Deployment: install-guide/platform/platform-deployment.md
+    - Configuration:
+      - install-guide/configuration/index.md
+      - Billing Integration: install-guide/configuration/billing-integration.md
+      - DNS Setup: install-guide/configuration/dns-setup.md
+    - Uninstall Instructions: install-guide/uninstall-instructions.md
+  - User Guide:
+    - user-guide/index.md
+    - Project Management: user-guide/project-management.md
+    - Storage Volume Management: user-guide/storage-volume-management.md
+    - Workspace Management:
+      - user-guide/workspace/index.md
+      - Create Workspace: user-guide/workspace/create-workspace.md
+      - Connect to Workspace: user-guide/workspace/connect-to-workspace.md
+      - Delete Workspace: user-guide/workspace/delete-workspace.md
+      - Monitor Workspace: user-guide/workspace/monitor-workspace.md
+    - Workload Management: user-guide/workload-management.md
+    - Quick Start:
+      - user-guide/quick-start/index.md
+      - Department Setup: user-guide/quick-start/department-setup.md
+      - Node Group Configuration: user-guide/quick-start/node-group-configuration.md
+      - Project Setup: user-guide/quick-start/project-setup.md
+      - Volume Creation: user-guide/quick-start/volume-creation.md
+      - Launch Workspace: user-guide/quick-start/launch-workspace.md
+      - Create Snapshot: user-guide/quick-start/create-snapshot.md
+      - Manage Workloads: user-guide/quick-start/manage-workloads.md
+  - Admin Guide:
+    - admin-guide/index.md
+    - Cluster Management: admin-guide/cluster-management.md
+    - Node & Node Group Management: admin-guide/node-group-management.md
+    - Department Management: admin-guide/department-management.md
+    - User Access Control: admin-guide/user-access-control.md
+    - Identity Providers:
+      - admin-guide/identity-providers/index.md
+      - OAuth / SSO Integration: admin-guide/identity-providers/oauth-sso-integration.md
+  - FAQ: faq.md
+  - Known Issues: known-issues.md
+  - Troubleshooting: troubleshooting.md
+  - Support: support.md
