@@ -1,5 +1,7 @@
 # Installation Guide
 
+![Exostellar Infrastructure](https://cdn.prod.website-files.com/682f16fda0a63d2b81f9abbc/683b5e5ca203281d54720e4a_layer-2.svg)
+
 Welcome to the Exostellar Platform installation guide. This comprehensive guide will walk you through setting up Exostellar Platform in your environment.
 
 ## Installation Overview

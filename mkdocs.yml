@@ -7,11 +7,10 @@ repo_name: Exostellar/docs
 
 theme:
   name: material
-  logo: https://cdn.prod.website-files.com/682f16fda0a63d2b81f9abbc/682f208634dfb368ea15734b_logo.svg
-  favicon: https://cdn.prod.website-files.com/682f16fda0a63d2b81f9abbc/682f208634dfb368ea15734b_logo.svg
   font:
     text: Arial, sans-serif
     code: JetBrains Mono
+  custom_dir: overrides
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"

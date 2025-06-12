@@ -1,5 +1,7 @@
 # User Guide
 
+![Exostellar Scaling](https://cdn.prod.website-files.com/682f16fda0a63d2b81f9abbc/683b5e5c9266cccd399d1691_layer-3.svg)
+
 Welcome to the Exostellar User Guide. This section provides comprehensive instructions for using the Exostellar platform effectively.
 
 ## Overview
