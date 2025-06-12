@@ -104,14 +104,6 @@ mkdocs build --strict
 3. Test locally with `mkdocs serve`
 4. Submit a pull request
 
-## Support
-
-For questions or issues with the documentation:
-
-- Check the [Troubleshooting](docs/troubleshooting.md) guide
-- Review [Known Issues](docs/known-issues.md)
-- Contact the documentation team
-
 ---
 
 **Copyright © Exostellar, Inc. Built by MkDocs**
