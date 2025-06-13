@@ -1,4 +1,4 @@
-site_name: Exostellar Documentation
+site_name: ""
 site_description: Complete guide to deploying and managing Exostellar Platform
 site_url: http://localhost:8000
 
@@ -7,6 +7,7 @@ repo_name: Exostellar/docs
 
 theme:
   name: material
+  logo: https://cdn.prod.website-files.com/682f16fda0a63d2b81f9abbc/682f208634dfb368ea15734b_logo.svg
   font:
     text: Arial, sans-serif
     code: JetBrains Mono

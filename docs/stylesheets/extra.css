@@ -12,10 +12,26 @@
   --md-accent-fg-color: #FF7043;
 }
 
-/* Hide the logo/icon in the header */
+/* Logo styling */
 .md-header__button.md-logo {
-  display: none;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
 }
+
+.md-header__button.md-logo img {
+  height: 32px;
+  width: auto;
+  filter: brightness(0) invert(1);
+}
+
+.md-nav__button.md-logo img {
+  height: 28px;
+  width: auto;
+  filter: brightness(0) invert(1);
+}
+
+
 
 /* Hero section styling */
 .hero-section {
@@ -222,5 +238,9 @@
   .product-card {
     flex-direction: column;
     text-align: center;
+  }
+  
+  .md-header__button.md-logo img {
+    height: 28px;
   }
 }
