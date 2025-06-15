@@ -1,6 +1,6 @@
-site_name: ""
+site_name: "Exostellar Platform Documentation"
 site_description: Complete guide to deploying and managing Exostellar Platform
-site_url: http://localhost:8000
+site_url: https://exostellar-exostellar-documentation.readthedocs-hosted.com/en/latest/
 
 repo_url: https://github.com/Exostellar/docs/
 repo_name: Exostellar/docs
